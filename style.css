@@ -1,8 +1,8 @@
 body{
-    background-image: url('bg.png');
+    /*background-image: url('bg.png');
     background-size: cover;
     background-position: top;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,44 +36,3 @@ p{
     padding: 4px;
     border-radius: 7px;
 }
-/* 
-.search-container {
-    position: relative;
-    display: inline-block;
-}
-
-#searchBar {
-    width: 200px;
-    padding: 8px 10px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    outline: none;
-}
-
-#itemList {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    width: 100%;
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    display: none;
-    max-height: 150px;
-    overflow-y: auto;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-#itemList li {
-    padding: 10px;
-    font-size: 16px;
-    border-bottom: 1px solid #eee;
-    cursor: pointer;
-    display: none;
-}
-
-#itemList li:hover {
-    background: #f0f0f0;
-} */
