@@ -1,17 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
-.slider {
-    display: flex;
-    width: 400%;
-    transition: transform 0.5s ease-in-out;
-}
-
-section {
-    width: 100vw;
-    height: 100vh;
-}
 body{
     margin: 0px;
     padding: 0px;
