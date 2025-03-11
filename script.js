@@ -7,7 +7,7 @@ document.querySelectorAll("nav a").forEach(link => {
         
         if (!section) return;
 
-        const sections = document.querySelectorAll("section");
+        const sections = document.querySelectorAll(".slider section");
         const index = [...sections].indexOf(section);
 
         if (index !== -1) { 
