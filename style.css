@@ -1,134 +1,18 @@
-.slider-container{
-    overflow: hidden;
-    width: 100vw;
-    height: 100vh;
-}
-.slider{
-    display: flex;
-    width: 400%;
-    transition: transform 0.5s ease-in-out;
-}
 
-section {
-    width: 100vw;
-    height: 100vh;
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-body{
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    overflow-y: auto;des
-    
-}
-h1{
-    background: #AF2F33;
-    color: white;
-    margin-top: 300px;
-    font-size: 70px;
-    font-family: 'Inter', sans-serif;
-    display: inline-block;
-    padding: 7px;
-    border-radius: 10px;
-}
-h2{
-    font-size: 15px;
-    font-family: 'Inter', sans-serif;
-    display: inline-block;
-    padding: 4px;
-    border-radius: 7px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header {
-    position: sticky;
-    width: 100%;
-    top: 0;
-    background: #AF2F33;
-    color: white;
-    padding: 45px 40px;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Inter', sans-serif;
-}
-.logo {
-    font-size: 34px;
-    font-weight: bold;
-}
 nav {
     display: flex;
     flex: 1;
     justify-content: center;
 }
-ul {
-    display: flex;
-    list-style: none;
-    gap: 70px;
-}
-.right ul {
-    display: flex;
-    gap: 0px;
-    list-style: none;
-}
-.right li {
-    display: flex;
-    align-items: center;
-}
-.right li:not(:last-child)::after {
-    content: '|';
-    margin: 0 10px;
-    color: white;
-    font-weight: bold;
-}
+
 li a {
-    color: #e0e0e0;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: bold;
     transition: color 0.3s ease;
 }
-li a:hover {
-    color: white;
-    border-bottom: 3px solid white;
-    
-}
-.right {
-    margin-left: auto;
-}
+
 .find-blood-btn {
-    background-color: white;
-    color: #AF2F33;
-    padding: 12.5px 20px;
-    border: none;
-    border-radius: 100px;
-    font-weight: bold;
-    cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
     text-decoration: none;
 }
-.find-blood-btn:hover {
-    background-color: #AF2F33;
-    color: white;
-    border-bottom: none
-}
-main {
-    padding: 50px;
-}
-
 
 .slideshow-container {
     width: 100%;
@@ -168,58 +52,12 @@ main {
     gap: 20px;
 }
 
-.description {
-    max-width: 75%;
-    max-height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; 
-    gap: 10px; 
-}
-
-.description h3 {
-    font-size: 34px;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    color: #000;
-    margin-bottom: 5px;
-    text-align: center;
-}
-
-.description .address {
-    font-size: 23px;
-    color: #aaa; 
-    margin-bottom: 10px;
-    text-align: left;
-}
-
-.description p {
-    font-size: 20px;
-    color: #333;
-    font-family: 'Inter', sans-serif;
-    text-align: left;
-    line-height: 1.6;
-}
-.description .contact{
-    position: absolute;
-    bottom: 0;
-    font-size: 20px;
-    color: #333;
-    font-family: 'Inter', sans-serif;
-    margin-top: auto;
-    text-align: left;
-}
-
 .slide img {
     width: 800px;
     height: 600px;
     border-radius: 20px;
     object-fit: cover;
     box-sizing: border-box;
-}
-
-input[type="radio"] {
-    display: none;
 }
 
 .nav-manual {
@@ -232,16 +70,7 @@ input[type="radio"] {
 }
 
 .manual-btn {
-    border: 2px solid white;
-    padding: 5px;
-    border-radius: 50%;
-    cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
-}
-
-.manual-btn:hover {
-    background-color: white;
-    transform: scale(1.2);
 }
 
 #img1:checked ~ .slides {
