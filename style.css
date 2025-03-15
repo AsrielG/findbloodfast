@@ -78,7 +78,7 @@ body {
 
 h1 {
     color: #050505;
-    font-size: clamp(24px, 5vw, 48px);
+    font-size: clamp(40px, 8vw, 80px);
     font-family: 'Inter', sans-serif;
     padding: 7px;
     border-radius: 10px;
@@ -224,14 +224,14 @@ nav ul li a.active {
     margin-top: 10px;
 }
 
-/* @media (max-width: 1024px) {
+ @media (max-width: 1024px) {
     nav ul{
         gap: 30px;
     }
     li a {
         font-size: 18px;
     }
-} */
+} 
 
 @media (max-width: 768px) {
     .slider {
@@ -259,20 +259,20 @@ nav ul li a.active {
         width: 100%;
         text-align: center;
     }
-/*     li a{
+    li a{
         font-size: 16px;
         padding: 8px 12px;
-    } */
+    }
     .btn {
         flex-direction: column;
     }
 }
 
 @media (max-width: 480px) {
-/*     header{
+    header{
         padding: 10px 5%;
     }
-     */
+    
     h1 {
         font-size: 20px;
     }
@@ -290,8 +290,8 @@ nav ul li a.active {
         text-align: center;
         gap: 5px;
     }
-/*     li a{
+    li a{
         font-size: 14px;
         padding: 6px 10px;
-    } */
+    }
 }
