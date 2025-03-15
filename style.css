@@ -269,10 +269,10 @@ nav ul li a.active {
 }
 
 @media (max-width: 480px) {
-    header{
+/*     header{
         padding: 10px 5%;
     }
-    
+     */
     h1 {
         font-size: 20px;
     }
