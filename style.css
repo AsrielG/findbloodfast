@@ -224,14 +224,14 @@ nav ul li a.active {
     margin-top: 10px;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     nav ul{
         gap: 30px;
     }
     li a {
         font-size: 18px;
     }
-}
+} */
 
 @media (max-width: 768px) {
     .slider {
@@ -259,10 +259,10 @@ nav ul li a.active {
         width: 100%;
         text-align: center;
     }
-    li a{
+/*     li a{
         font-size: 16px;
         padding: 8px 12px;
-    }
+    } */
     .btn {
         flex-direction: column;
     }
@@ -290,8 +290,8 @@ nav ul li a.active {
         text-align: center;
         gap: 5px;
     }
-    li a{
+/*     li a{
         font-size: 14px;
         padding: 6px 10px;
-    }
+    } */
 }
