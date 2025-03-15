@@ -12,7 +12,9 @@ document.querySelectorAll("nav a").forEach(link => {
 
         if (index !== -1) { 
             document.querySelector(".slider").style.transform = 
-                `translateX(-${index * 100}vw)`;
+                'translateX(-${index * 100}vw)';
         }
+
+        section.scrollIntoView({ behavior: "smooth" });
     });
 });
