@@ -33,7 +33,7 @@ body {
 }
 
 #home {
-    background-image: url('bg1.jpg');
+    background-image: url('images/bg1.jpg');
     background-size: cover;
     background-position: top;
 }
