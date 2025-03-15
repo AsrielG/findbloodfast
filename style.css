@@ -19,28 +19,37 @@ section {
     align-items: center;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
 }
-body{
+
+body {
     margin: 0px;
     padding: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    overflow-y: auto;des
-    
+    overflow-y: auto;
 }
-h1{
-    background: #AF2F33;
-    color: white;
-    margin-top: 300px;
-    font-size: 70px;
+
+#home {
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+h1 {
+    color: rgb(5, 5, 5);
+    position: relative;
+    margin-top: -10px;
+    font-size: 80px;
     font-family: 'Inter', sans-serif;
     display: inline-block;
     padding: 7px;
     border-radius: 10px;
 }
-h2{
+
+h2 {
     font-size: 15px;
     font-family: 'Inter', sans-serif;
     display: inline-block;
@@ -60,42 +69,49 @@ header {
     top: 0;
     background: #AF2F33;
     color: white;
-    padding: 45px 40px;
+    padding: 15px 40px;
     z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: 'Inter', sans-serif;
 }
+
 .logo {
     font-size: 34px;
     font-weight: bold;
 }
+
 nav {
     display: flex;
     flex: 1;
     justify-content: center;
 }
+
 ul {
     display: flex;
     list-style: none;
     gap: 70px;
 }
+
 .right ul {
     display: flex;
     gap: 0px;
     list-style: none;
 }
+
 .right li {
     display: flex;
     align-items: center;
 }
+
 .right li:not(:last-child)::after {
     content: '|';
     margin: 0 10px;
     color: white;
     font-weight: bold;
 }
+
 li a {
     color: #e0e0e0;
     font-size: 20px;
@@ -103,17 +119,9 @@ li a {
     font-weight: bold;
     transition: color 0.3s ease;
 }
-li a:hover {
+
+nav ul li a{
     color: white;
-    border-bottom: 3px solid white;
-    
-}
-.right {
-    margin-left: auto;
-}
-.find-blood-btn {
-    background-color: white;
-    color: #AF2F33;
     padding: 12.5px 20px;
     border: none;
     border-radius: 100px;
@@ -122,11 +130,35 @@ li a:hover {
     transition: background-color 0.3s ease, color 0.3s ease;
     text-decoration: none;
 }
-.find-blood-btn:hover {
-    background-color: #AF2F33;
-    color: white;
-    border-bottom: none
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: white;
+    color: #AF2F33;
+    border-radius: 10px;
+} 
+
+.right {
+    margin-left: auto;
 }
+
+.find-blood-btn {
+    color: white;
+    padding: 12.5px 20px;
+    border: none;
+    border-radius: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+}
+
+.find-blood-btn:hover {
+    background-color: white;
+    color: #AF2F33;
+    
+}
+
 main {
     padding: 50px;
 }
@@ -175,8 +207,8 @@ main {
     max-height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; 
-    gap: 10px; 
+    justify-content: flex-start;
+    gap: 10px;
 }
 
 .description h3 {
@@ -190,7 +222,7 @@ main {
 
 .description .address {
     font-size: 23px;
-    color: #aaa; 
+    color: #aaa;
     margin-bottom: 10px;
     text-align: left;
 }
@@ -202,7 +234,8 @@ main {
     text-align: left;
     line-height: 1.6;
 }
-.description .contact{
+
+.description .contact {
     position: absolute;
     bottom: 0;
     font-size: 20px;
@@ -246,18 +279,18 @@ input[type="radio"] {
     transform: scale(1.2);
 }
 
-#img1:checked ~ .slides {
+#img1:checked~.slides {
     transform: translateX(0%);
 }
 
-#img2:checked ~ .slides {
+#img2:checked~.slides {
     transform: translateX(-25%);
 }
 
-#img3:checked ~ .slides {
+#img3:checked~.slides {
     transform: translateX(-50%);
 }
 
-#img4:checked ~ .slides {
+#img4:checked~.slides {
     transform: translateX(-75%);
 }
