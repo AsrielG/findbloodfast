@@ -53,6 +53,19 @@ body {
     height: 100vh;
 }
 
+#about {
+    background-image: url("images/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10vh;
+    height: 100vh;
+}
+
 .sign-home {
     display: flex;
     gap: 15px;
