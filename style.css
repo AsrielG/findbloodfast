@@ -336,3 +336,12 @@ nav ul li a.active {
         padding: 6px 10px;
     }
 }
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust height as needed */
+    text-align: center;
+}
