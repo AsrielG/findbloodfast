@@ -79,6 +79,7 @@ body {
     height: 100vh;
 }
 
+
 #find {
     background-image: url("images/bg1.jpg");
     background-size: cover;
@@ -91,6 +92,7 @@ body {
     padding-top: 10vh;
     height: 100vh;
 }
+
 
 .sign-home {
     display: flex;
