@@ -333,4 +333,73 @@ nav ul li a.active {
         font-size: 14px;
         padding: 6px 10px;
     }
+
+/* Add these new styles for auth pages */
+.auth-section {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.auth-form {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+}
+
+.form-group input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.auth-form .btn {
+    width: 100%;
+    padding: 12px;
+    background: #ff4b4b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.auth-form .btn:hover {
+    background: #ff3333;
+}
+
+.auth-link {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.auth-link a {
+    color: #ff4b4b;
+    text-decoration: none;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+}
 }
